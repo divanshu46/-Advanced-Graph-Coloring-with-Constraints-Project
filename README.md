@@ -57,7 +57,7 @@ To add a new coloring strategy:
 - The backtracking strategy guarantees an optimal solution but may be slow for large graphs.
 - The greedy strategy is fast but may use more colors than necessary.
 - Since the backtracking approach takes a lot of time, a limit of 5 seconds has been set on execution time.
-- For performance checking, it takes 100, 500 and 1000 vertices.
+- For performance checking, it takes 100, 500, 1000 and 10000 vertices.
 - The code can be further improved by adding stricter test case checking and edge case checking.
 - Backtracking approach for bigger graphs if not ended early, might take several minutes to finish.
 - Parallel computing can also be implemented for better performance.
